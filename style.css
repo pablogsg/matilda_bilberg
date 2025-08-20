@@ -1,0 +1,390 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "inter", sans-serif;
+}
+
+main {
+    width: 100%;
+}
+
+a.main_title, a:hover, a:active, a:visited, a:focus {
+    text-decoration: none;
+    color: #000;
+
+}
+
+#welcome_media {
+    width: 100%;
+}
+
+.cover img {
+    object-fit: cover;
+    width: 100%;
+    min-width: 1060px;
+    min-height: 900px;
+    max-height: 800px;
+}
+
+.navbar ul {
+    z-index: 2;
+    font-family: "Inter", Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+  }
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+.navbar a:hover{
+    color: whitesmoke;
+}
+
+#work_navbar ul {
+    background-color:hsla(0, 0%, 95%, 0.6);
+    top: 0;
+    right: 0;
+    padding-left: 1500px;
+}
+
+.main_title {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    padding: 0.5rem;
+    padding-left: 0.8rem;
+    font-size: 1.5rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+    background-color: #fff;
+}
+
+.main_title_work {
+    background-color:hsla(0, 0%, 95%, 0.6);
+}
+
+.section{
+    padding: 0 5rem 0 5rem;
+}
+.presentation {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    margin-top: 7rem;
+    margin-left: 5rem;
+}
+#about_flex {
+    display: flex;
+}
+
+.about_img {
+    max-width: 100%;
+    margin: 3em 5em;
+    margin-bottom: 3em;
+    object-fit: contain;
+}
+
+.about {
+    padding: 0 5rem 0 5rem;
+}
+#collaborations {
+    padding: 5rem;
+}
+#collaborations_list {
+    padding: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.list1 {
+    justify-content: center;
+}
+.container_BYN {
+    display: flex;
+}
+
+.container_BYN img {
+    max-width: 300px;
+    object-fit: contain;
+    margin-left: 2rem;
+}
+
+.news_title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.news_date{
+    font-weight: 600;
+    color: rgb(82, 82, 82);
+}
+
+.news_data {
+    font-weight: 600;
+}
+
+.contact_flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contactBackground_img {
+    background-image: url(../media/Attlb_MaliDönmez.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1200px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 2rem;
+}
+
+#letter {
+    text-align: center;
+    line-height: 50px;
+    height: 500px;
+    margin-top: 200px;
+    overflow: hidden;
+}
+.section_spacing{
+    padding: 1.5rem;
+    margin-top: 3rem;
+}
+
+#calendar_main {
+    z-index: 1;
+    background-color:rgb(230, 240, 255);
+}
+
+table {
+    width: 92%;
+    margin: 4rem;
+    padding: 2.5rem;
+    padding-top: 0;
+    margin-top: 3rem;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    border-spacing: 0;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.current_year {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left; 
+    color: #333; 
+    padding-top: 8rem;
+    padding-left: 4rem;
+  }
+
+.former_year {
+    font-size: 2rem;
+    font-weight: bold; 
+    text-align: left; 
+    color: #333;
+    padding-top: 0;
+    padding-left: 4rem;
+}
+
+.table_header {
+    text-align: left;
+}
+
+td {
+    padding:2rem 0 2rem 0;
+    border-top: 1px black solid;
+}
+
+form {
+    width: 400px;
+    margin: 10vh auto;
+    padding: 200px;
+    padding-bottom: 400px;
+    height: 200px;
+}
+
+form input,
+form textarea {
+    color: whitesmoke;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 2px;
+    font-size: 1.5em;
+    resize: none;
+}
+
+textarea {
+    resize: none !important;
+}
+
+form textarea::-webkit-scrollbar {
+    width: 0%;
+}
+
+.form_background {
+    background-image: url(../media/Attlb_MaliDönmez.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 90%;
+    min-height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.underlined-textarea {
+    /* Set a fixed line-height for consistent line spacing */
+    line-height: 2em; 
+    /* Use a repeating linear-gradient to create the lines */
+    background: 
+      repeating-linear-gradient(
+        to bottom, 
+        transparent, 
+        transparent calc(2em - 1px), /* Adjust this value to control line thickness */
+        #ffff 0px, /* Color of the underline */
+        #ffff 2em /* Repeat at the line-height interval */
+      );
+    background-attachment: local; /* Ensures background scrolls with content */
+    width: 100%;
+    height: 200px; /* Or adjust as needed */
+    padding: 5px;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    resize: vertical; /* Allow vertical resizing if desired */
+  }
+
+.underlined-email-input{
+      border-bottom: #ffff 1px solid;
+  }
+
+::placeholder {
+    color: white;
+    font-size: 22px;
+}
+
+button {
+    border: 1px solid #ffff;
+    text-transform: uppercase;
+    font: 20px, "Inter", sans-serif;
+    color: #ffff;
+    padding: 6px 40px 6px;
+    background-color: transparent;
+    border-radius: 0;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#matilda_email {
+    font-size: 1.3em;
+}
+
+#ty_note {
+    background-image: url(../media/vecteezy_abstract-close-up-waterfall_7520111\ \(1\).jpg);
+    font-family: "inter", sans-serif;
+    width: 100%;
+    height: 100%;
+    font-size: 3rem;
+    font-weight: 300;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.gallery-item {
+    position: relative;
+    margin: 10px;
+    width: calc(33.33% - 20px);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: filter 0.3s ease-in-out;
+}
+
+.gallery-item:hover img {
+    filter: blur(2px) brightness(80%);
+}
+
+.image-name {
+    font-family: "inter", sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color: #fff;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    pointer-events: none;
+}
+
+@media (max-width: 768px) {
+    .gallery-item {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-item {
+        width: 100%;
+    }
+}
+
+
+.contact_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_links {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+}
+
+.contact_links:hover {
+    text-decoration: underline;
+}
+
+a .left_margin {
+    margin-left: 70px;
+}
+
+#vg_flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+#matilda_email {
+    font-size: 1.3em;
+}
