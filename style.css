@@ -140,7 +140,7 @@ a.main_title, a:hover, a:active, a:visited, a:focus {
 }
 
 .contactBackground_img {
-    background-image: url(../media/Attlb_MaliDönmez.webp);
+    background-image: url(/media/Attlb_MaliDönmez.webp);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -236,7 +236,7 @@ form textarea::-webkit-scrollbar {
 }
 
 .form_background {
-    background-image: url(../media/Attlb_MaliDönmez.webp);
+    background-image: url(/media/Attlb_MaliDönmez.webp);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 90%;
@@ -293,7 +293,7 @@ button {
 }
 
 #ty_note {
-    background-image: url(../media/vecteezy_abstract-close-up-waterfall_7520111\ \(1\).jpg);
+    background-image: url(/media/vecteezy_abstract-close-up-waterfall_7520111\ \(1\).jpg);
     font-family: "inter", sans-serif;
     width: 100%;
     height: 100%;

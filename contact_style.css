@@ -108,7 +108,7 @@ main {
 }
 
 .contactBackground_img {
-    background-image: url(../media/Attlb_MaliDönmez.webp);
+    background-image: url(/media/Attlb_MaliDönmez.webp);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -231,7 +231,7 @@ form textarea::-webkit-scrollbar {
 }
 
 .form_background {
-    background-image: url(../media/Attlb_MaliDönmez.webp);
+    background-image: url(/media/Attlb_MaliDönmez.webp);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 80%;
